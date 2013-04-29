@@ -6,7 +6,6 @@ Created on Feb 21, 2013
 import urllib2, cookielib
 import mechanize
 
-
 def getOpener():
     cookiefile ="../facebook_output/cookies.txt"   
     cookies = cookielib.MozillaCookieJar()
@@ -45,6 +44,8 @@ def FBlogin(username,password):
 
 if __name__=='__main__':
 #    username='gter07@gmail.com'
-    username='1085767795@qq.com'
+#    username='1085767795@qq.com'
+    username='249463780@qq.com' #david.pon
     password='33333366'
+
     print FBlogin(username,password)

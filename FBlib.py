@@ -49,10 +49,11 @@ def findByRE(regexp,source):
     return regexp.findall(source) 
 
 
-def writeLog(logContent):
+def writeLog(*args):
     with open('../facebook_output/log.csv','ab') as flog:
+        content=[datetime.now()]+list(args)
         cw = csv.writer(flog)
-        cw.writerow([datetime.now(),logContent])   
+        cw.writerow(content)   
     
     
 def clearLog():
