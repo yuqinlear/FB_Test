@@ -7,9 +7,8 @@ Created on Feb 22, 2013
 
 import FBlogin,os,photosRE
 
-#username='gter07@gmail.com'
-##    username='1085767795@qq.com'
-#password='33333366'
+
+#password=
 #FBlogin(username,password)
 
 #    login_id=100003950175394 #shirley.cia.9
